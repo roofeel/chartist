@@ -48,7 +48,7 @@ export default {
 
   watch: {
     data (val) {
-      this.$nextTick(() => this.chart.update())
+      this.$nextTick(() => this.chart.update(val))
     }
   }
 }
